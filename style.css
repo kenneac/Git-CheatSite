@@ -11,11 +11,8 @@ body {
 
     background: linear-gradient(135deg,
             #c6dcff 0%,
-            /* muted slate */
             #b0f3ff 45%,
-            /* soft charcoal */
             #e1e9ff 100%
-            /* calm deep blue */
         );
 
     color: #e5e7eb;
