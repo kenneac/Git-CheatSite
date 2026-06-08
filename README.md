@@ -21,7 +21,7 @@ An interactive, premium-designed visual Git cheat sheet and workflow guide. It h
 
 ```text
 Git Cheatsite/
-├── git-cheat-site-index.html  # Main entry point & HTML structure
+├── index.html                 # Main entry point & HTML structure
 ├── style.css                  # Core layout & general style rules
 ├── script.js                  # Navigation logic & view switching
 ├── images/                    # SVG graphics & icons
@@ -33,7 +33,8 @@ Git Cheatsite/
 │   ├── img-local-repo.svg
 │   ├── img-remote-repo.svg
 │   ├── img-staging-area.svg
-│   └── img-working-directory.svg
+│   ├── img-working-directory.svg
+│   └── git-readme-images/     # Site preview screenshots (1.png, 2.png, 3.png)
 └── other_styles/              # Modular stylesheets for layout components
     ├── style-site-footer.css
     ├── style-site-header.css
@@ -59,7 +60,7 @@ Git Cheatsite/
 Since this is a client-side vanilla web application, no installation or build steps are required.
 
 1. **Clone or Download** the repository to your local machine.
-2. Open `git-cheat-site-index.html` directly in any web browser.
+2. Open `index.html` directly in any web browser.
 3. *Optional*: Serve the directory using a local web server (e.g. VS Code's **Live Server** extension or `npx serve`) for a local dev environment.
 
 ---
@@ -69,3 +70,18 @@ Since this is a client-side vanilla web application, no installation or build st
 - Use **Landscape Mode** or a wider screen width for the best visualization experience.
 - The **length** of each command block visually corresponds to the Git areas/stages it impacts.
 - **Arrows** indicate the direction of change movement, while icons without arrows signify a command with no directional flow (like inspection or status checks).
+
+---
+
+## 📸 Site Preview
+
+Here is a preview of the interactive Git CheatSite interfaces:
+
+### 1. View All / Workflow Guide
+![View All / Workflow Guide](images/git-readme-images/1.png)
+
+### 2. Main Content / State Transitions
+![Main Content / State Transitions](images/git-readme-images/2.png)
+
+### 3. Extra Operations & Advanced Guides
+![Extra Operations & Advanced Guides](images/git-readme-images/3.png)
